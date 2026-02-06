@@ -1,0 +1,30 @@
+/*  Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+/*  Tailwind import */
+@import "tailwindcss";
+
+/* 3Tailwind layers 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
+/*  Custom font classes */
+.dm-serif {
+  font-family: "DM Serif Text", serif;
+}
+
+.dm-serif-italic {
+  font-family: "DM Serif Text", serif;
+  font-style: italic;
+}
+*{
+  cursor: none;
+}
+/*  Dark mode variant (Tailwind v4) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*  Theme colors */
+@theme {
+  --color-primary: #5044E5;
+}
