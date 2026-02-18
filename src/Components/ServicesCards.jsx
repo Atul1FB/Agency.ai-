@@ -28,7 +28,7 @@ function ServicesCards({ service, index }) {
              mix-blend-lighten opacity-70"
                 style={{ top: y, left: x }}
             />
-            <div className='flex items-center gap-10 p-8 hover:p-7.5 hover:m-0.5 transition-all rounded-[10px]
+            <div className='flex flex-col sm:flex-row items-center gap-10 p-8 hover:p-7.5 hover:m-0.5 transition-all rounded-[10px]
                 bg-white dark:bg-gray-900 z-10 relative'>
 
                 <div className='bg-gray-100 dark:bg-gray-700 rounded-full'>
